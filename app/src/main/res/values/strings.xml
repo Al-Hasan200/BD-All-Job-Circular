@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">BD All Job Circular</string>
+    <string name="home_actionbar_name">সকল চাকরির খবর</string>
+
+    <string name="nav_home">হোম</string>
+    <string name="nav_moreApps">অন্যান্য অ্যাপ</string>
+    <string name="nav_rateApp">৫ স্টার রেটিং দিন</string>
+    <string name="nav_shareApp">শেয়ার করুন</string>
+    <string name="setting_name">সেটিংস</string>
+    <string name="nav_aboutUs">আমাদের সম্পর্কে</string>
+    <string name="nav_termsCondition">বিধি-নিষেধ এবং শর্তাবলী</string>
+    <string name="nav_privacyPolicy">গোপনীয়তা নীতি</string>
+
+    <string name="exit_text">আপনি কি এই অ্যাপ থেকে বের হতে চান? এই অ্যাপটি ভালো লাগলে ৫ স্টার দিতে ভুলবেন না।</string>
+
+    <string name="nointernet_text">আপনার মোবাইলে ইন্টারনেট সংযোগ নেই, অনুগ্রহ করে ইন্টারনেট সংযোগ দিয়ে আবার চেষ্টা করুন, এই অ্যাপটি ব্যবহারের সময় মোবাইলে ইন্টারনেট সংযোগ দিয়ে রাখুন।</string>
+
+    <string name="job_news">চাকরির খবর</string>
+    <string name="view_all">সব দেখুন</string>
+
+    <string name="quiz1">কয়েন উপার্জন</string>
+    <string name="quiz2">কুইজ খেলুন</string>
+
+    <string name="govt_job">সরকারি</string>
+    <string name="private_job">বেসরকারি</string>
+    <string name="ministry_job">মন্ত্রণালয়</string>
+    <string name="defence_job">ডিফেন্স</string>
+    <string name="bank_job">ব্যাংক</string>
+    <string name="ngo_job">এনজিও</string>
+    <string name="educational_institutions_job">শিক্ষাপ্রতিষ্ঠান</string>
+    <string name="today_job">আজকের খবর</string>
+
+    <string name="title_govt_job">সরকারি চাকরি</string>
+    <string name="title_private_job">বেসরকারি চাকরি</string>
+    <string name="title_ministry_job">মন্ত্রণালয়ে চাকরি</string>
+    <string name="title_defence_job">ডিফেন্সে চাকরি</string>
+    <string name="title_bank_job">ব্যাংকে চাকরি</string>
+    <string name="title_ngo_job">এনজিওতে চাকরি</string>
+    <string name="title_educational_institutions_job">শিক্ষাপ্রতিষ্ঠানে চাকরি</string>
+    <string name="title_today_job">আজকের চাকরির খবর</string>
+
+    <string name="qualification_job_news">যোগ্যতা অনুযায়ী</string>
+    <string name="eight_job">অষ্টম শ্রেণী পাস</string>
+    <string name="ssc_job">এসএসসি পাস</string>
+    <string name="hsc_job">এইচএসসি পাস</string>
+    <string name="graduate_job">স্নাতক পাস</string>
+
+    <string name="special_notice_news">নোটিশ</string>
+    <string name="company_news">কোম্পানি</string>
+    <string name="preparation_news">প্রস্তুতি</string>
+    <string name="topic_news">বিষয়ভিত্তিক প্রস্তুতি</string>
+
+    <string name="job_result">পরীক্ষার ফলাফল</string>
+    <string name="job_news_paper">চাকরির পত্রিকা</string>
+    <string name="job_notice">নোটিশ</string>
+    <string name="job_exam_notice">পরীক্ষার নোটিশ</string>
+
+    <string name="title_job_result">পরীক্ষার ফলাফল</string>
+    <string name="title_job_news_paper">চাকরির পত্রিকা</string>
+    <string name="title_job_notice">নোটিশ</string>
+    <string name="title_job_exam_notice">পরীক্ষার নোটিশ</string>
+
+    <string name="aboutUs">অ্যাপটির তথ্য</string>
+
+    <string name="nav_sound">টাচ সাউন্ড</string>
+    <string name="darkMode">ডার্ক মোড</string>
+    <string name="version">ভার্সন কোড</string>
+    <string name="version1">1.1</string>
+    <string name="company">কোম্পানির নাম</string>
+    <string name="company1">AH Software Company LTD</string>
+    <string name="email">ই-মেইল</string>
+    <string name="email1">alhasann200@gmail.com</string>
+    <string name="about">এই অ্যাপ সম্পর্কে</string>
+    <string name="aboutApp">\nআপনি কি চাকরি খুঁজছেন যদি সকল প্রকার চাকরির খবর এক সাথে পেতে চান তাহলে এই অ্যাপটি আপনার জন্য।\n\nকারণ এই অ্যাপটিতে বাংলাদেশের সব ধরনের চাকরির খবর একসাথে পাওয়া যায়।\n\nএই অ্যাপটিতে সব ধরনের সরকারি, বেসরকারি, ব্যাংক, প্রসাশন, ডিফেন্স, এনজিও, শিক্ষা-প্রতিষ্ঠানের চাকরির খবর একসাথে পাওয়া যায়।\n\nএই অ্যাপটিতে ক্যাটাগরি অনুযায়ী চাকরির খবর দেখানো হয়, যোগ্যতা অনুযায়ী চাকরির খবর দেখানো হয়।\n\nএছাড়াও এই অ্যাপটিতে চাকরির পরিক্ষার ফলাফল,  সাপ্তাহিক চাকরির পত্রিকা এবং চাকরির পরিক্ষার নোটিশ দেখতে পারবেন আপনারা।\n\nআশাকরি এই অ্যাপটি আপনাদের জন্য খুবই কাজে দিবে, ধন্যবাদ।\n</string>
+
+    <string-array name="theme">
+        <item>সিস্টেম ডিফল্ট</item>
+        <item>ডার্ক মোড</item>
+        <item>লাইট মোড</item>
+    </string-array>
+
+    <string name="it">আইটি</string>
+    <string name="design">ডিজাইন</string>
+    <string name="computer_operator">কম্পিউটার অপারেটর</string>
+    <string name="garments">গার্মেন্টস/টেক্সটাইল</string>
+
+    <string name="overall_preparation">সকল প্রস্তুতি</string>
+    <string name="mcq">এমসিকিউ প্রশ্ন</string>
+    <string name="written">লিখিত প্রশ্ন</string>
+    <string name="vocabulary">ভোকাবুলারি</string>
+
+    <string name="english">ইংলিশ</string>
+    <string name="bangla">বাংলা</string>
+    <string name="math">ম্যাথ</string>
+    <string name="general_knowledge">সাধারন জ্ঞান</string>
+    <string name="job_tittle">চাকরির খবর</string>
+    <string name="date">তারিখঃ</string>
+    <string name="view_count">মোট ভিউঃ</string>
+    <string name="view">00</string>
+    <string name="job_title">চাকরির খবরঃ</string>
+    <string name="job_apply_date">আবেদন শুরুর তারিখঃ</string>
+    <string name="job_apply_end_date">আবেদনের শেষ তারিখঃ</string>
+    <string name="job_source">উৎসঃ</string>
+    <string name="job_place">স্থানঃ</string>
+    <string name="job_apply_link">আবেদনের লিংকঃ</string>
+
+    <string name="job_details">বিস্তারিত</string>
+    <string name="job_circular">অফিশিয়াল সার্কুলার</string>
+    <string name="job_circular_see">অফিশিয়াল সার্কুলার দেখুন</string>
+    <string name="job_circular_download">সার্কুলার ডাউনলোড করুন</string>
+    <string name="newspaper_tittle">সাপ্তাহিক চাকরির পত্রিকা</string>
+    <string name="newspaper">পত্রিকা</string>
+    <string name="newspaper_download">পত্রিকা ডাউনলোড করুন</string>
+    <string name="exam_notice_official">অফিসিয়াল পরীক্ষার নোটিশ</string>
+    <string name="exam_notice_download">পরীক্ষার নোটিশ ডাউনলোড করুন</string>
+    <string name="tittle_exam_notice">পরীক্ষার নোটিশঃ</string>
+    <string name="tittle_exam_date">পরীক্ষার তারিখঃ</string>
+    <string name="details_exam_notice">বিস্তারিতঃ</string>
+    <string name="exam_notice_official_see">অফিশিয়াল পরীক্ষার নোটিশ দেখুন</string>
+    <string name="official_exam_result">অফিসিয়াল পরীক্ষার ফলাফল</string>
+    <string name="official_exam_result_download">পরীক্ষার ফলাফল ডাউনলোড করুন</string>
+    <string name="exam_result_official_see">অফিশিয়াল পরীক্ষার ফলাফল দেখুন</string>
+    <string name="official_notice">অফিশিয়াল নোটিশ</string>
+    <string name="official_notice_see">অফিশিয়াল নোটিশ দেখুন</string>
+    <string name="official_notice_download">নোটিশ ডাউনলোড করুন</string>
+    <string name="mcq_download">এমসিকিউ প্রশ্ন ডাউনলোড করুন</string>
+    <string name="mcq1">এমসিকিউ</string>
+    <string name="vocabulary_download">ভোকাবুলারি ডাউনলোড করুন</string>
+    <string name="preparation_download">ফাইল ডাউনলোড করুন</string>
+    <string name="written1">লিখিত</string>
+
+    <string name="math1">ম্যাথ প্রস্তুতি</string>
+    <string name="bangla1">বাংলা প্রস্তুতি</string>
+    <string name="english1">ইংলিশ প্রস্তুতি</string>
+    <string name="general1">সাধারন জ্ঞান প্রস্তুতি</string>
+
+</resources>

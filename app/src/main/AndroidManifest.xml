@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mrcompanyltd.bdalljobcircular">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bdalljobcircularappicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bdalljobcircularappicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BDAllJobCircular"
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="32">
+        <activity
+            android:name=".vmath.MathActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vmath.MathPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vgeneral.GeneralActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vgeneral.GeneralPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".venglish.EnglishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".venglish.EnglishPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vbangla.BanglaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vbangla.BanglaPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bvocabulary.VocabularyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bvocabulary.VocabularyPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bwritten.WrittenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bwritten.WrittenPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bmcq.McqActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bmcq.McqPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bpreparation.AllPreparationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bpreparation.PreparationPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slidernewspaper.SlidernewspaperPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slidernewspaper.SlidernewspaperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sliderprivatejob.SliderprivatejobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sliderprivatejob.SliderprivatejobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sliderprivatejob.SliderprivatejobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sgovtjob.SlidergovtjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sgovtjob.SlidergovtjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sgovtjob.SlidergovtjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slidertodayjob.SlidertodayjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slidertodayjob.SlidertodayjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slidertodayjob.SlidertodayjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nnotice.NnoticePdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nnotice.NnoticeviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nnotice.NnoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nexamresult.ExamresultPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nexamresult.ExamresultviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nexamresult.ExamresultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nexamnotice.ExamnoticePdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nexamnotice.ExamnoticeviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nexamnotice.ExamnoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nnewspaper.NewspaperPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nnewspaper.NewspaperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pgarmentsnews.GarmentsjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pgarmentsnews.GarmentsjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pgarmentsnews.GarmentsjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pdesignnews.DesignjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pdesignnews.DesignjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pdesignnews.DesignjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pitnews.ItjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pitnews.ItjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pitnews.ItjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pcomputernews.ComputerjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pcomputernews.ComputerjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pcomputernews.ComputerjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classgraduate.ClassgraduatejobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classgraduate.ClassgraduatejobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classgraduate.ClassgraduatejobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classhsc.ClasshscjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classhsc.ClasshscjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classhsc.ClasshscjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classten.ClasstenjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classten.ClasstenjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classten.ClasstenjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classeight.ClasseightjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classeight.ClasseightjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classeight.ClasseightjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".educationjobnews.EducationjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".educationjobnews.EducationjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".educationjobnews.EducationjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ngojobnews.NgojobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ngojobnews.NgojobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ngojobnews.NgojobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bankjobnews.BankjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bankjobnews.BankjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bankjobnews.BankjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".defencejobnews.DefencejobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".defencejobnews.DefencejobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".defencejobnews.DefencejobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ministryjobnews.MinistryjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ministryjobnews.MinistryjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ministryjobnews.MinistryjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".privatejobnews.PrivatejobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".privatejobnews.PrivatejobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".privatejobnews.PrivatejobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".govtjobnews.GovtjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".todayjobnews.TodayjobPdfviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".govtjobnews.GovtjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".govtjobnews.GovtjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".todayjobnews.TodayjobviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".todayjobnews.TodayjobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TopicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PreparationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CompanyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.NoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.QualificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.JobnewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TermsConditionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".allclass.NetworkChangeReciver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
